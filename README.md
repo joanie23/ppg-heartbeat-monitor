@@ -19,7 +19,6 @@ The circuit consists of the following stages:
 Each stage conditions the heartbeat signal before it reaches the final LED indicator.
 
 ### Complete Circuit Design
-
 ![PPG heartbeat monitor circuit schematic](images/circuit-schematic.png)
 
 ## My Design Work
