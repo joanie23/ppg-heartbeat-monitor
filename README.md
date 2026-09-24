@@ -18,6 +18,10 @@ The circuit consists of the following stages:
 
 Each stage conditions the heartbeat signal before it reaches the final LED indicator.
 
+### Complete Circuit Design
+
+![PPG heartbeat monitor circuit schematic](images/circuit-schematic.png)
+
 ## My Design Work
 
 My design work included:
@@ -58,6 +62,10 @@ The filtered heartbeat signal is relatively small, so an op-amp amplification st
 
 The final stage drives an LED so that the detected pulse can be observed visually.
 
+### Design Calculations
+
+![Filter and amplifier design calculations](images/design-calculations.png)
+
 ## Simulation
 
 The circuit was simulated before hardware implementation to verify the filter behaviour, amplification, and LED response.
@@ -72,11 +80,19 @@ The simulation showed that:
 
 After simulation, the circuit was constructed and tested on a breadboard using laboratory equipment.
 
+### Breadboard Prototype
+
+![PPG heartbeat monitor breadboard prototype](images/breadboard-prototype.png)
+
 Oscilloscope measurements were used to observe the signal and evaluate the performance of the physical circuit.
 
 ## Results
 
 The completed circuit successfully produced an LED response at the detected pulse frequency.
+
+### Measured Heartbeat Signal
+
+![Measured heartbeat waveform on oscilloscope](images/oscilloscope-waveform.png)
 
 The physical circuit did not exactly match the simulated performance. The intended amplifier gain was approximately **10×**, while the measured hardware produced approximately **7× gain**.
 
